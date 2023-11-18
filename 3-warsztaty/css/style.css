@@ -1,0 +1,27 @@
+section,
+footer {
+  padding: 60px 0;
+}
+
+.showcase-img {
+  background-position: center;
+  background-size: cover;
+}
+
+.team-img {
+  min-height: 200px;
+  max-width: 200px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+
+#newsletter-form {
+  background-image: url(/3-warsztaty/img/slider-1.jpg);
+}
+
+@media (max-width: 768px) {
+  .showcase-img {
+    height: 300px;
+  }
+}
